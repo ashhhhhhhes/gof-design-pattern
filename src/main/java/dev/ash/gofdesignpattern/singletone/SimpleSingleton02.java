@@ -8,7 +8,8 @@ package dev.ash.gofdesignpattern.singletone;
  */
 public class SimpleSingleton02 {
 
-    private static SimpleSingleton02 instance;
+    // * volatile 을 추가해야만 정상적으로 동기화가 된다.
+    private static volatile SimpleSingleton02 instance;
 
     // * 외부에서 해각 인스턴스를 new 를 통해 생성하지 못하기 위해, 생성자를 private 으로 만든다.
     private SimpleSingleton02() {}
