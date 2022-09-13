@@ -1,9 +1,11 @@
 package dev.ash.gofdesignpattern.singletone;
 
+import java.io.Serializable;
+
 /**
  * static inner 클래스 사용하기.
  */
-public class StaticInnerSetting {
+public class StaticInnerSetting  implements Serializable {
 
     private StaticInnerSetting() {}
 
