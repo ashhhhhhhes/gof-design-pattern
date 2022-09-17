@@ -1,4 +1,4 @@
-package dev.ash.gofdesignpattern.singletone;
+package dev.ash.gofdesignpattern._01_creation_patterns._01_singletone;
 
 public class App {
 
